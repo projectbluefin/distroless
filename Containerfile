@@ -33,7 +33,7 @@ RUN --mount=type=bind,from=ctx,source=/,target=/ctx \
     --mount=type=cache,dst=/var/cache \
     --mount=type=cache,dst=/var/log \
     --mount=type=tmpfs,dst=/tmp \
-    find /ctx/build -type f -name "*.sh" ! -name "*.example" ! -name "copr-helpers.sh" -executable | sort | xargs -I {} bash {}
+    find /ctx/build -type f -name "*.sh" ! -name "*.example" -executable | sort | xargs -I {} bash {}
     
 ### LINTING
 ## Verify final image and contents are correct.
