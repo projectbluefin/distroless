@@ -21,7 +21,8 @@
 
 - Installation
 - Ensuring upgrades and rollbacks work
-- 
+- Waiting for bluefin's customizations to be moved to homebrew
+- Make a layer that all Bluefin's can use for system things, like the gnome schemas, etc, that can just be copied into the containerfile. 
 
 ## Screenshots
 
