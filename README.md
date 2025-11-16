@@ -11,6 +11,18 @@
 
 ![Dakorator](https://github.com/user-attachments/assets/ee92291d-a617-496e-abb6-9045a4c665ce)
 
+## Goals
+
+- From scratch buildstream setup in @ublue-os/egg
+- This repository assembles it all together, aka the containerfile
+- No dx image, everything in homebrew or sysexts
+
+## Missing things
+
+- Installation
+- Ensuring upgrades and rollbacks work
+- 
+
 ## Screenshots
 
 <img width="2376" height="1336" alt="1" src="https://github.com/user-attachments/assets/495cdfe9-4af0-4604-9a3f-8a2fc806924f" />
